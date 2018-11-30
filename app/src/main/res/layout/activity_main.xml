@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="50dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="376dp"
+        android:layout_height="181dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.002"
+        tools:style="@style/CardView">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="68dp"
+            android:layout_height="64dp"
+            android:layout_marginBottom="80dp"
+            android:layout_marginLeft="350dp"
+            android:layout_marginStart="290dp"
+            android:contentDescription="@string/todo2"
+            app:srcCompat="@drawable/thor" />
+
+        <TextView
+            android:id="@+id/thor"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:text="@string/thor"
+            android:textSize="24sp"
+            tools:layout_marginLeft="20dp" />
+
+        <TextView
+            android:id="@+id/Aesir_God"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="15dp"
+            android:paddingLeft="10dp"
+            android:text="@string/aesir_god"
+            android:textSize="20sp"
+            tools:layout_marginTop="35dp" />
+
+        <TextView
+            android:id="@+id/des"
+            android:layout_width="346dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="70dp"
+            android:paddingLeft="10dp"
+            android:text="@string/well_known_for_being_linked_to_thunder_lightning_storms_and_strength_but_he_was_also_known_as_the_protector_of_mankind_and_partly_responsible_for_healing_fertility_and_law_and_order"
+            android:textSize="16sp" />
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="389dp"
+        android:layout_height="183dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:style="@style/CardView">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="98dp"
+            android:layout_height="69dp"
+            android:layout_marginLeft="300dp"
+            android:layout_marginStart="275dp"
+            android:contentDescription="@string/todo"
+            app:srcCompat="@drawable/ironman" />
+
+        <TextView
+            android:id="@+id/des2"
+            android:layout_width="350dp"
+            android:layout_height="105dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="70dp"
+            android:text="@string/billionaire_industrialist_and_inventor_he_is_the_former_ceo_of_stark_industries_a_conglomerate_originally_started_by_his_father_howard_stark"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/Billionaire"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="35dp"
+            android:text="@string/billionaire"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/ironman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:text="@string/iron_man"
+            android:textSize="24sp" />
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="371dp"
+        android:layout_height="179dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:style="@style/CardView">
+
+        <TextView
+            android:id="@+id/des3"
+            android:layout_width="351dp"
+            android:layout_height="148dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="70dp"
+            android:text="@string/no_superhuman_powers_but_through_the_super_soldier_serum_and_vita_ray_treatment_he_is_transformed_and_his_strength_endurance_agility_speed_reflexes_durability_and_healing_are_at_the_zenith_of_natural_human_potential"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/Soldier"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="35dp"
+            android:text="@string/soldier"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="53dp"
+            android:layout_height="67dp"
+            android:layout_marginLeft="300dp"
+            android:layout_marginStart="300dp"
+            android:contentDescription="@string/todo1"
+            app:srcCompat="@drawable/steve" />
+
+        <TextView
+            android:id="@+id/captainamerica"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingStart="5dp"
+            android:text="@string/captain_america"
+            android:textSize="24sp" />
+
+    </android.support.v7.widget.CardView>
+
+</android.support.constraint.ConstraintLayout>

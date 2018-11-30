@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CarchaCatherineBhelExam1</string>
+    <string name="thor">THOR</string>
+    <string name="aesir_god">Aesir God</string>
+    <string name="billionaire">Billionaire</string>
+    <string name="billionaire_industrialist_and_inventor_he_is_the_former_ceo_of_stark_industries_a_conglomerate_originally_started_by_his_father_howard_stark">Billionaire industrialist and inventor. He is the former CEO of Stark Industries, a conglomerate originally started by his father, Howard Stark.</string>
+    <string name="iron_man">IRON MAN</string>
+    <string name="well_known_for_being_linked_to_thunder_lightning_storms_and_strength_but_he_was_also_known_as_the_protector_of_mankind_and_partly_responsible_for_healing_fertility_and_law_and_order">Well-known for being linked to thunder, lightning, storms and strength, but he was also known as the protector of mankind and partly responsible for healing, fertility and law and order.</string>
+    <string name="captain_america">CAPTAIN AMERICA</string>
+    <string name="soldier">Soldier</string>
+    <string name="no_superhuman_powers_but_through_the_super_soldier_serum_and_vita_ray_treatment_he_is_transformed_and_his_strength_endurance_agility_speed_reflexes_durability_and_healing_are_at_the_zenith_of_natural_human_potential">no superhuman powers, but through the Super-Soldier Serum and Vita-Raytreatment, he is transformed and his strength, endurance, agility, speed, reflexes, durability, and healing are at the zenith of natural human potential.</string>
+    <string name="todo">TODO</string>
+    <string name="todo1">TODO</string>
+    <string name="todo2">TODO</string>
+</resources>
